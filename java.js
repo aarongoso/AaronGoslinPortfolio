@@ -38,3 +38,23 @@ function moveSlide(direction) {
     const translateXValue = -(currentIndex * (100 / itemsToShow));
     carouselWrapper.style.transform = `translateX(${translateXValue}%)`;
 }
+
+// Function to increment and display the view count
+function updateAndDisplayViewCount() {
+    const namespace = 'aarongoso.github.io'; // Use your GitHub Pages domain
+    const key = 'view-counter'; // Use a unique key for this counter
+
+    // Increment the view count using CountAPI
+    fetch(`https://api.countapi.xyz/hit/${namespace}/${key}`)
+        .then(response => response.json())
+        .then(data => {
+            // Update the view count on the page
+            document.getElementById('viewCount').textContent = data.value;
+        })
+        .catch(error => {
+            console.error('Error updating view count:', error);
+        });
+}
+
+// Call the function when the page loads
+updateAndDisplayViewCount();
