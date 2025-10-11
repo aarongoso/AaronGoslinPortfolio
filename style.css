@@ -40,25 +40,40 @@ html, body {
 }
 
 .centered-text {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Center horizontally and vertically */
-    font-family: 'PT Sans', sans-serif;
-    color: var(--white-color);
-    z-index: 10; /* Ensure it's above other elements */
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'PT Sans', sans-serif;
+  color: var(--white-color);
+  z-index: 10;
 }
 
 .centered-text h3, .centered-text p {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    font-size: 25px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 25px;
+  opacity: 0; /* Start with invisible text */
+  animation: fadeIn 1.5s ease-in forwards; /* Apply fade-in animation */
 }
 
 .centered-text p {
-    font-family: 'PT Sans', sans-serif;
-    font-size: 20px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+  animation-delay: 0.3s; /* Delay paragraph animation for stagger effect */
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px); /* Slight upward movement */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 
