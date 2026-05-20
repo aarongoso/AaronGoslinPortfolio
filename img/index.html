@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aaron Goslin | CS Graduate</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='12' fill='%230a0c10'/><text y='72' x='8' font-family='monospace' font-size='52' font-weight='700' fill='%2300e5a0'>AG</text></svg>">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <span class="nav-logo">AG<span class="accent">.</span><span class="nav-name">Aaron Goslin</span></span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="CV.pdf" class="nav-cv" target="_blank" download>CV ↓</a></li>
+      </ul>
+      <button class="burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about" class="mob-link">About</a></li>
+      <li><a href="#skills" class="mob-link">Skills</a></li>
+      <li><a href="#projects" class="mob-link">Projects</a></li>
+      <li><a href="#experience" class="mob-link">Experience</a></li>
+      <li><a href="#contact" class="mob-link">Contact</a></li>
+      <li><a href="CV.pdf" class="mob-link" target="_blank" download>Download CV</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="grid-bg"></div>
+    <div class="hero-content">
+      <p class="hero-tag">// Final Year Computer Science Student</p>
+      <h1 class="hero-name">Aaron<br><span class="accent">Goslin</span></h1>
+      <p class="hero-sub">
+        <span id="typed"></span><span class="cursor">|</span>
+      </p>
+      <p class="hero-desc">
+        BSc Computing @ National College of Ireland · Specialising in Cybersecurity · 
+        Available for full-time roles from July 2026.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="#contact" class="btn-ghost">Get In Touch</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">7 mo</span>
+          <span class="stat-label">Industry Placement</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">400+</span>
+          <span class="stat-label">IT Tasks Resolved</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">70+</span>
+          <span class="stat-label">Devices Deployed</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="section-label">01 / About</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm a final year Computer Science student at NCI Dublin with a strong interest in cybersecurity, IT support, and security operations. Growing up surrounded by technology sparked a curiosity that turned into a career path.</p>
+          <p>During my placement at <strong>Dublin City Council's Planning IT Department</strong>, I worked 
+          alongside enterprise IT teams - imaging and deploying 70+ devices, managing Active Directory, 
+          configuring secure remote access, and resolving 400+ support tickets via the Alemba INFRA system.</p>
+          <p>I'm currently building <strong>ChronicPal</strong>, a security-first healthcare platform for my 
+          final year project, applying what I've learned in penetration testing, secure application development, and digital forensics.</p>
+          <div class="about-links">
+            <a href="https://github.com/aarongoso" target="_blank" class="about-link">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.4.6.1.82-.26.82-.57v-2c-3.34.73-4.04-1.6-4.04-1.6-.55-1.4-1.34-1.77-1.34-1.77-1.08-.74.08-.73.08-.73 1.2.09 1.83 1.23 1.83 1.23 1.07 1.83 2.8 1.3 3.48 1 .1-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 3-.4c1.02 0 2.04.13 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.65 1.66.24 2.88.12 3.18.77.84 1.23 1.9 1.23 3.22 0 4.61-2.8 5.63-5.48 5.92.43.37.82 1.1.82 2.22v3.29c0 .32.21.69.83.57C20.57 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/aaron-goslin/" target="_blank" class="about-link">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.26 2.37 4.26 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.21 0 22.23 0z"/></svg>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+        <div class="about-card-wrap">
+          <div class="terminal-card">
+            <div class="terminal-header">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+              <span class="terminal-title">aaron@nci:~$</span>
+            </div>
+            <div class="terminal-body">
+              <p><span class="t-key">name</span> <span class="t-eq">=</span> <span class="t-val">"Aaron Goslin"</span></p>
+              <p><span class="t-key">location</span> <span class="t-eq">=</span> <span class="t-val">"Dublin, Ireland"</span></p>
+              <p><span class="t-key">degree</span> <span class="t-eq">=</span> <span class="t-val">"BSc Computing (Hons)"</span></p>
+              <p><span class="t-key">college</span> <span class="t-eq">=</span> <span class="t-val">"NCI Dublin"</span></p>
+              <p><span class="t-key">specialisation</span> <span class="t-eq">=</span> <span class="t-val">"Cybersecurity"</span></p>
+              <p><span class="t-key">available</span> <span class="t-eq">=</span> <span class="t-val">July 2026</span></p>
+              <p><span class="t-key">interests</span> <span class="t-eq">=</span> <span class="t-val">["Cybersecurity", "IT Support", "Security Analysis", "Helpdesk"]</span></p>
+              <p class="t-blink">_</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-label">02 / Skills</div>
+      <h2>Technical Skills</h2>
+      <div class="skills-list">
+
+        <div class="skill-row">
+          <span class="skill-category">Languages</span>
+          <div class="badges">
+            <span class="badge">Java</span>
+            <span class="badge">Python</span>
+            <span class="badge">PHP</span>
+            <span class="badge">JavaScript</span>
+            <span class="badge">TypeScript</span>
+            <span class="badge">HTML</span>
+            <span class="badge">CSS</span>
+            <span class="badge">SQL</span>
+            <span class="badge">XML</span>
+            <span class="badge">JSON</span>
+          </div>
+        </div>
+
+        <div class="skill-divider"></div>
+
+        <div class="skill-row">
+          <span class="skill-category">Cybersecurity</span>
+          <div class="badges">
+            <span class="badge">Penetration Testing</span>
+            <span class="badge">Digital Forensics</span>
+            <span class="badge">OWASP Top 10 Awareness</span>
+            <span class="badge">OWASP ZAP</span>
+            <span class="badge">Kali Linux</span>
+            <span class="badge">AES-256-GCM</span>
+            <span class="badge">bcrypt</span>
+            <span class="badge">TOTP / MFA</span>
+            <span class="badge">ClamAV</span>
+            <span class="badge">JWT / RBAC</span>
+            <span class="badge">GDPR Awareness</span>
+          </div>
+        </div>
+
+        <div class="skill-divider"></div>
+
+        <div class="skill-row">
+          <span class="skill-category">IT and Systems</span>
+          <div class="badges">
+            <span class="badge">Active Directory</span>
+            <span class="badge">Microsoft Intune</span>
+            <span class="badge">Windows 11 Deployment</span>
+            <span class="badge">PXE Boot / Imaging</span>
+            <span class="badge">Citrix CAG</span>
+            <span class="badge">Safenet 2FA</span>
+            <span class="badge">Alemba INFRA</span>
+            <span class="badge">OIM</span>
+            <span class="badge">Topsec</span>
+          </div>
+        </div>
+
+        <div class="skill-divider"></div>
+
+        <div class="skill-row">
+          <span class="skill-category">Frameworks and Tools</span>
+          <div class="badges">
+            <span class="badge">Node.js / Express</span>
+            <span class="badge">React</span>
+            <span class="badge">Flask</span>
+            <span class="badge">Sequelize ORM</span>
+            <span class="badge">Tailwind CSS</span>
+            <span class="badge">MySQL</span>
+            <span class="badge">Git / GitHub</span>
+            <span class="badge">Jest</span>
+            <span class="badge">Postman</span>
+            <span class="badge">Scikit-learn</span>
+            <span class="badge">Cisco Packet Tracer</span>
+            <span class="badge">Wireshark</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-label">03 / Projects</div>
+      <h2>Projects I've Worked On</h2>
+      <div class="projects-grid">
+
+        <!-- FEATURED PROJECT -->
+        <div class="project-card featured">
+          <div class="project-header">
+            <span class="featured-tag">Final Year Project</span>
+          </div>
+          <div class="chronic-title">
+            <img src="img/ChronicPal_Logo.png" alt="ChronicPal" style="width:36px;height:36px;object-fit:contain;"/>
+            <h3>ChronicPal</h3>
+          </div>
+          <p class="chronic-intro">A security-first healthcare platform for chronic illness management.</p>
+          <ul class="chronic-roles">
+            <li><span class="role-label">Patients</span> Log symptoms, food and medication, share and receive encrypted files with their doctor, and receive AI-driven flare-up risk scores and pattern insights.</li>
+            <li><span class="role-label">Doctors</span> Manage assigned patients, upload encrypted medical files, and view clinical histories.</li>
+            <li><span class="role-label">Admins</span> Control doctor account activation and monitor security events across audit logs.</li>
+          </ul>
+          <p class="chronic-testing">Tested with OWASP ZAP, Jest unit tests, Postman API tests, and manual security testing.</p>
+          <div class="project-tech">
+            <span>Node.js</span><span>Express</span><span>TypeScript</span><span>React</span><span>MySQL</span><span>Sequelize</span><span>Flask</span><span>Scikit-learn</span><span>JWT</span><span>bcrypt</span><span>AES-256-GCM</span><span>RBAC</span><span>TOTP/MFA</span><span>ClamAV</span><span>Helmet.js</span><span>Tailwind CSS</span><span>Audit Logging</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/aarongoso/ChronicPal" target="_blank" class="proj-link">
+              View on GitHub →
+            </a>
+          </div>
+        </div>
+
+        <!-- 2: Secure Blog App -->
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
+          </div>
+          <h3>Secure Blog App</h3>
+          <p>Two versions of the same blog application - one intentionally vulnerable, one fully hardened. Demonstrates SQL injection, XSS, CSRF, weak session handling, and how each is mitigated. Includes Selenium end-to-end tests and audit logging.</p>
+          <div class="project-tech">
+            <span>Node.js</span><span>Express</span><span>SQLite</span><span>bcrypt</span><span>Selenium</span><span>OWASP</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/aarongoso/Secure-blog-app" target="_blank" class="proj-link">GitHub →</a>
+          </div>
+        </div>
+
+        <!-- 3: MealMethod -->
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3zm0 0v7"/></svg></div>
+          </div>
+          <h3>MealMethod</h3>
+          <p>A dynamic meal planner integrating the Edamam API. Users can search recipes, calculate body metrics, and save data with account creation.</p>
+          <div class="project-tech">
+            <span>JavaScript</span><span>PHP</span><span>MySQL</span><span>Edamam API</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/aarongoso/MealMethod" target="_blank" class="proj-link">GitHub →</a>
+          </div>
+        </div>
+
+        <!-- 4: EventSys -->
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
+          </div>
+          <h3>EventSys</h3>
+          <p>Full-stack event booking and management system with a decoupled Rails API backend and React frontend. Features CRUD, capacity validation, ActionMailer confirmation emails, RSpec tests, and CI/CD with security scanning via Brakeman and RuboCop. Deployed on Netlify and Render.</p>
+          <div class="project-tech">
+            <span>Ruby on Rails</span><span>React</span><span>PostgreSQL</span><span>RSpec</span><span>Brakeman</span><span>Netlify</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/aarongoso/EventSys" target="_blank" class="proj-link">GitHub →</a>
+          </div>
+        </div>
+
+        <!-- 5: Secure Document Signing -->
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+          </div>
+          <h3>Secure Document Signing</h3>
+          <p>Digitally sign and verify documents using SHA-256 and RSA encryption, ensuring authenticity, integrity, and non-repudiation.</p>
+          <div class="project-tech">
+            <span>Java</span><span>SHA-256</span><span>RSA</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/aarongoso/SecureDocumentSigning" target="_blank" class="proj-link">GitHub →</a>
+          </div>
+        </div>
+
+        <!-- 6: Regression & Classification -->
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/><line x1="2" y1="20" x2="22" y2="20"/></svg></div>
+          </div>
+          <h3>Regression & Classification</h3>
+          <p>ML project featuring housing price prediction with Linear Regression and NBA All-Star classification using Logistic Regression and K-NN. Scored 90% in the module.</p>
+          <div class="project-tech">
+            <span>Python</span><span>Scikit-learn</span><span>Pandas</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/aarongoso/RegressionAndClassification" target="_blank" class="proj-link">GitHub →</a>
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-label">04 / Experience</div>
+      <h2>Where I've Worked</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-meta">
+              <span class="timeline-date">Jan 2025 – Jul 2025</span>
+              <span class="timeline-type">Internship · Hybrid</span>
+            </div>
+            <h3>IT Service Desk Intern</h3>
+            <h4>Dublin City Council - Planning IT Department</h4>
+            <ul>
+              <li>Imaged and deployed 70+ Windows 11 PCs and laptops via PXE boot, configuring BIOS and enrolling into Intune/Company Portal.</li>
+              <li>Resolved 400+ IT support tickets via Alemba INFRA, providing onsite and remote troubleshooting across multiple council locations.</li>
+              <li>Managed user accounts, password resets, and access permissions through Active Directory and OIM.</li>
+              <li>Configured Citrix CAG and Safenet MobilePass tokens for secure 2FA remote access.</li>
+              <li>Developed step-by-step troubleshooting documentation, reducing repeat support requests.</li>
+              <li>Participated in Agile-style team meetings for task prioritisation and cross-department collaboration.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Active Directory</span><span>Intune</span><span>Windows 11</span><span>Agile</span><span>2FA</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot secondary"></div>
+          <div class="timeline-content">
+            <div class="timeline-meta">
+              <span class="timeline-date">May 2022 – Present</span>
+              <span class="timeline-type">Part-time</span>
+            </div>
+            <h3>Event Staff</h3>
+            <h4>Excel Recruitment</h4>
+            <ul>
+              <li>Working across high-profile venues including the 3 Arena, Croke Park, and Leopardstown Racecourse in fast-paced, high-pressure environments.</li>
+              <li>Roles included bar staff, catering, and customer service, requiring quick adaptation to new teams and locations.</li>
+              <li>Held manual handling certification. Maintained consistently high standards over 3+ years alongside full-time college studies, demonstrating reliability and strong work ethic.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Teamwork</span><span>Manual Handling</span><span>Customer Experience</span><span>Fast-paced</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot secondary"></div>
+          <div class="timeline-content">
+            <div class="timeline-meta">
+              <span class="timeline-date">Jun 2024 – Aug 2024</span>
+              <span class="timeline-type">J1 · Seasonal · Chicago, USA</span>
+            </div>
+            <h3>Customer Experience Specialist</h3>
+            <h4>Color Factory - Chicago, Illinois</h4>
+            <p style="color:var(--text-muted);font-size:0.9rem;">Relocated independently to Chicago for a summer J1 programme. Demonstrated adaptability, confidence, and strong communication in a fast-paced public-facing role.</p>
+            <div class="timeline-tags">
+              <span>J1 Visa</span><span>Chicago</span><span>Adaptability</span><span>Communication</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- EDUCATION -->
+      <div class="edu-block">
+        <div class="section-label" style="margin-top: 3rem;">Education</div>
+        <div class="edu-card">
+          <div class="edu-left">
+            <h3>BSc (Hons) Computing</h3>
+            <h4>National College of Ireland · 2022 - 2026</h4>
+            <p>Specialisation in Cybersecurity. Graduating 2026.</p>
+            <div class="modules-block">
+              <p class="modules-label">Relevant Modules</p>
+              <div class="badges" style="margin-top:0.6rem;">
+                <span class="badge">Advanced Databases</span>
+                <span class="badge">Data Communications and Networking</span>
+                <span class="badge">Operating Systems</span>
+                <span class="badge">Advanced Computer Networks</span>
+                <span class="badge">Security Fundamentals and Development</span>
+                <span class="badge">Introduction to AI and Machine Learning</span>
+                <span class="badge">IT Governance, Security and Ethics</span>
+                <span class="badge">Secure Application Programming</span>
+                <span class="badge">DevOpsSec</span>
+                <span class="badge">Digital Forensics</span>
+                <span class="badge">Penetration Testing</span>
+                <span class="badge">Cloud Application Development</span>
+                <span class="badge">Software Quality and Testing</span>
+                <span class="badge">Advanced Programming</span>
+              </div>
+            </div>
+          </div>
+          <div class="edu-right">
+            <div class="grade-badge">NCI</div>
+            <span>BSc Hons Computing</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-label">05 / Contact</div>
+      <div class="contact-inner">
+        <h2>Contact Me Here</h2>
+        <p>I'm actively looking for graduate roles in cybersecurity, security analysis, IT support, or helpdesk - available from July 2026. With hands-on enterprise IT experience and a final year focused on penetration testing, digital forensics, and secure development, I'm eager to keep developing my skills and contribute to a real team environment.</p>
+        <div class="contact-cards">
+          <a href="mailto:aarongoso11@gmail.com" class="contact-card-item">
+            <div class="cc-icon">✉</div>
+            <span class="cc-label">Email</span>
+            <span class="cc-val">aarongoso11@gmail.com</span>
+          </a>
+          <a href="https://www.linkedin.com/in/aaron-goslin/" target="_blank" class="contact-card-item">
+            <div class="cc-icon">in</div>
+            <span class="cc-label">LinkedIn</span>
+            <span class="cc-val">aaron-goslin</span>
+          </a>
+          <a href="https://github.com/aarongoso" target="_blank" class="contact-card-item">
+            <div class="cc-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.4.6.1.82-.26.82-.57v-2c-3.34.73-4.04-1.6-4.04-1.6-.55-1.4-1.34-1.77-1.34-1.77-1.08-.74.08-.73.08-.73 1.2.09 1.83 1.23 1.83 1.23 1.07 1.83 2.8 1.3 3.48 1 .1-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 3-.4c1.02 0 2.04.13 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.65 1.66.24 2.88.12 3.18.77.84 1.23 1.9 1.23 3.22 0 4.61-2.8 5.63-5.48 5.92.43.37.82 1.1.82 2.22v3.29c0 .32.21.69.83.57C20.57 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            </div>
+            <span class="cc-label">GitHub</span>
+            <span class="cc-val">aarongoso</span>
+          </a>
+        </div>
+        <a href="CV.pdf" class="btn-primary" download>Download CV ↓</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- BACK TO TOP -->
+  <button id="backToTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="java.js"></script>
+</body>
+</html>
