@@ -32,8 +32,8 @@ const phrases = [
   'Cybersecurity Enthusiast',
   'IT Systems & Support',
   'Problem Solver',
-  'Final Year CS Student',
-  'Available July 2026'
+  'BSc Computing Graduate',
+  'Available Now'
 ];
 
 let phraseIndex = 0;
